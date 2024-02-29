@@ -2,7 +2,7 @@ model:
   base_learning_rate: 5.0e-05
   target: ldm.models.diffusion.sync_dreamer.SyncMultiviewDiffusion
   params:
-    view_num: 16
+    view_num: 32
     image_size: 256
     cfg_scale: 2.0
     output_num: 8
